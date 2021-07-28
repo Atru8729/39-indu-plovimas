@@ -7,7 +7,7 @@ class Plates {
 
     intro() {
         if (this.cleanPlates + this.dirtyPlates <= 0) {
-            console.log(`Hi, this restoran has 0 plates! Please, buy some.`);
+            console.log(`Hi, this restoran has no plates! Please, buy some.`);
         } else {
             console.log(`Hi, this restoran has ${this.cleanPlates + this.dirtyPlates} plates!`);
         }
